@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Horizontal navBar -->
+
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+</style>
+
+<body>
+<!-- Header -->	
+<div id = "Header">
+	<head>
+			<title>Daily Brew</title>
+		</head>
+	</div>
+
+
+
+<!-- Create Nav bar -->	
+<div id="navBar">
+	<ul>
+	  	<li><a href="https://GiangFett.githiub.io">Home</a></li>
+	  	<li><a href="">Daily Brew</a></li>
+	  	<li><a href="">Featured Coffee</a></li>
+	  	<li><a href="">How To</a></li>
+	  	<li><a href="">About</a></li>	
+	</ul>
+</div>
+
+<div id="main_dailyBrew">
+	<h1>Daily Brew</h2>
+	
+	<br>
+	
+	<!-- Coffee news here -->
+	<p>CONTENT WILL BE ADDED</p>
+</div>
+
+</body>
+</html>
