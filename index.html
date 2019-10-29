@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Horizontal navBar -->
-
 <style>
 
-ul {
-  list-style-type: none;
+body {
   margin: 0;
-  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-li {
-  display: inline;
+/*black background topnav*/
+.topnav {
+  overflow: hidden;
+  background-color: #2E8B57;
 }
+
+/*top nav color*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*hover color*/
+.topnav a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+/*active colors*/
+.topnav a.active {
+  background-color: #006400;
+  color: white;
+}
+
 </style>
 
 <body>
+
 <!-- Header -->	
 <div id = "Header">
 	<head>
@@ -26,14 +49,12 @@ li {
 
 
 <!-- Create Nav bar -->	
-<div id="navBar">
-	<ul>
-	  	<li><a href="https://GiangoFett.github.io/index.html">Home</a></li>
-	  	<li><a href="https://giangofett.github.io/dailybrew.html">Daily Brew</a></li>
-	  	<li><a href="https://giangofett.github.io/feature.html">Featured Coffee</a></li>
-	  	<li><a href="https://giangofett.github.io/howto.html">How To</a></li>
-	  	<li><a href="https://giangofett.github.io/about.html">About</a></li>	
-	</ul>
+<div class ="topnav">
+	  	<a class='active' href="https://GiangoFett.github.io">Home</a></li>
+	  	<a href="https://giangofett.github.io/dailybrew.html">Daily Brew</a></li>
+	  	<a href="https://giangofett.github.io/feature.html">Featured Coffee</a></li>
+	  	<a href="https://giangofett.github.io/howto.html">How To</a></li>
+	  	<a href="https://giangofett.github.io/about.html">About</a></li>		
 </div>
 	
 
@@ -46,6 +67,8 @@ li {
 		<p>This site was born from the idea that coffee shouldn't be consumed alone. So go grab a cup, some food, and enjoy with some friends.</p>
 
 </div>
+
+
 
 		
 
